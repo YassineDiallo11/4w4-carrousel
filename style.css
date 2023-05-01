@@ -5,7 +5,7 @@
   top: 25%;
   left: 25%;
   border: 1px solid #aaa;
-  background-color: rgb(143, 153, 217);
+  background-color: #2D3192;
   transform: scale(0);
   transition: transform 0.5s;
 }
@@ -16,9 +16,9 @@
 
 .fleche {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  padding-top: 180px;
+  padding-top: 250px;
 }
 
 .carrousel__x {
@@ -37,6 +37,10 @@
   left: 0;
 }
 
+.droite {
+  right: 0;
+}
+
 .carrousel__figure {
   position: absolute;
   width: 100%;
@@ -53,6 +57,10 @@
   width: 100%;
   height: auto;
   opacity: 0;
+}
+
+.carrousel__img--activer {
+  opacity: 1;
 }
 
 .carrousel__form {
