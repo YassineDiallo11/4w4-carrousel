@@ -32,8 +32,10 @@ function creation_carrousel()
 {
     return "
     <div class='carrousel'>
+    <div class='Exit'> 
     <button class='carrousel__x'>X</button>
-    <div class='fleche'> 
+    </div>
+    <div class='Bouton_fleche'> 
     <button class='carrousel__gauche gauche'>&#x3008;</button> 
     <button class='carrousel__droite droite'>&#x3009;</button>
     </div>

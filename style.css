@@ -4,8 +4,9 @@
   height: 50%;
   top: 25%;
   left: 25%;
-  border: 1px solid #aaa;
+  border: 8px solid #ffffff;
   background-color: #2D3192;
+  border-radius: 20% 5%;
   transform: scale(0);
   transition: transform 0.5s;
 }
@@ -14,7 +15,7 @@
   transform: scale(1);
 }
 
-.fleche {
+.Bouton_fleche {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -57,6 +58,7 @@
   width: 100%;
   height: auto;
   opacity: 0;
+  border-radius: 20% 11%;
 }
 
 .carrousel__img--activer {
