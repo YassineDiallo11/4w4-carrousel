@@ -1,17 +1,27 @@
 .carrousel { // boîte modale 
-    position : absolute;
+    position : fixed;
     width : 50%;
     height : 50%;
     top : 25%;
     left : 25%;
     border: 1px solid #aaa;
-    background-color:white;
+    background-color:rgb(143, 153, 217);
     transform : scale(0);
     transition : transform .5s;
 }
 
 .carrousel--activer {
     transform : scale(1);
+   
+    
+}
+.fleche{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 180px;
+    
+    
 }
 
 .carrousel__x{
@@ -20,7 +30,14 @@
     right : 3px;
     z-index : 3;
 }
+.droite,.gauche{
+    position: absolute;
+    z-index: 3;
+}
 
+.gauche{
+    left: 0;
+}
 .carrousel__figure {
     position : absolute;
     width : 100%;
@@ -37,6 +54,7 @@
     width : 100%;
     height : auto;
     opacity: 0;
+    
 
 }
 .carrousel__form{
@@ -53,3 +71,5 @@
     margin: 3px;
     
 }
+
+

@@ -33,9 +33,14 @@ function creation_carrousel()
     return "<button class='carrousel__ouvrir'>Ouvrir le carrousel</button>
     <div class='carrousel'>
     <button class='carrousel__x'>X</button>
+    <div class='fleche'> 
+    <button class='carrousel__gauche gauche'>&#x3008; </button> 
+    <button class='carrousel__droite droite'>&#x3009;</button>
+    </div>
     <figure class='carrousel__figure'></figure>
     <form class='carrousel__form'></form>
     </div> <!-- fin du carrousel -->
     ";
 }
 add_shortcode('carrousel', 'creation_carrousel');
+

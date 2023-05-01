@@ -1,11 +1,11 @@
 .carrousel {
-  position: absolute;
+  position: fixed;
   width: 50%;
   height: 50%;
   top: 25%;
   left: 25%;
   border: 1px solid #aaa;
-  background-color: white;
+  background-color: rgb(143, 153, 217);
   transform: scale(0);
   transition: transform 0.5s;
 }
@@ -14,11 +14,27 @@
   transform: scale(1);
 }
 
+.fleche {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 180px;
+}
+
 .carrousel__x {
   position: absolute;
   top: 3px;
   right: 3px;
   z-index: 3;
+}
+
+.droite, .gauche {
+  position: absolute;
+  z-index: 3;
+}
+
+.gauche {
+  left: 0;
 }
 
 .carrousel__figure {
