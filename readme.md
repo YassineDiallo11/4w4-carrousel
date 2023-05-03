@@ -5,3 +5,7 @@
 - Faire le carrousel quand on clic sur une image de la galerie
 - Navigation dans le carrousel avec des radio-boutons et avec des flèches 
 - Animation du carrousel
+
+#### Références
+
+- https://cidweb4.sg-host.com/
