@@ -5,10 +5,29 @@
   top: 25%;
   left: 25%;
   border: 8px solid #ffffff;
-  background-color: #2D3192;
+  background-color: #ffffff;
   border-radius: 20% 5%;
   transform: scale(0);
   transition: transform 0.5s;
+}
+@media screen and (max-width: 800px) {
+  .carrousel {
+    position: fixed;
+    height: 40%;
+  }
+}
+@media screen and (max-width: 695px) {
+  .carrousel {
+    position: fixed;
+    height: 35%;
+  }
+}
+@media screen and (max-width: 595px) {
+  .carrousel {
+    position: fixed;
+    height: 40%;
+    width: 60%;
+  }
 }
 
 .carrousel--activer {
@@ -19,7 +38,22 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: 250px;
+  padding-top: 190px;
+}
+@media screen and (max-width: 800px) {
+  .Bouton_fleche {
+    padding-top: 150px;
+  }
+}
+@media screen and (max-width: 595px) {
+  .Bouton_fleche {
+    padding-top: 120px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .Bouton_fleche {
+    height: 150%;
+  }
 }
 
 .carrousel__x {
